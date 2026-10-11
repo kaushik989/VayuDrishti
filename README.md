@@ -1,24 +1,24 @@
 # 💨 VayuDrishti (वायुदृष्टि)
-### Hyperlocal Clean-Air Intelligence & School Safe-Passage AI Grid
-**Built for the [WeMakeDevs × AWS Bharat Builds Tour: Environmental Hacks](https://www.wemakedevs.org/aws/env)**  
-**Track 01: Air** | **Grand Prize Eligible: ₹2,00,000 Cash + $2,000 AWS Credits + Amazon Fast-Track Interviews**
+> **Hyperlocal Clean-Air Intelligence & School Safe-Passage AI Grid**
 
-🌐 **Live Demo Website:** [https://740f15a8b736b9.lhr.life](https://740f15a8b736b9.lhr.life)
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Node.js](https://img.shields.io/badge/Node.js-v20%2B-green.svg)](https://nodejs.org/)
 [![AWS Bedrock](https://img.shields.io/badge/AWS-Bedrock%20Claude%203.5-FF9900?logo=amazon-aws)](https://aws.amazon.com/bedrock/)
 [![Amazon DynamoDB](https://img.shields.io/badge/Amazon-DynamoDB-4053D6?logo=amazon-dynamodb)](https://aws.amazon.com/dynamodb/)
 [![Amazon SNS](https://img.shields.io/badge/Amazon-SNS-FF4F8B?logo=amazon-aws)](https://aws.amazon.com/sns/)
 [![AWS SAM](https://img.shields.io/badge/AWS-SAM%20IaC-232F3E?logo=amazon-aws)](https://aws.amazon.com/serverless/sam/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+🌐 **Live Demo Website:** [https://740f15a8b736b9.lhr.life](https://740f15a8b736b9.lhr.life)
 
 ---
 
-## 🌟 Overview
-Every October, Northern India—and particularly the Delhi-NCR belt—enters a state of public health emergency. Agricultural stubble burning across Punjab and Haryana, combined with winter thermal inversion, locks toxic particulate matter close to the ground, pushing the Air Quality Index (AQI) well past **450 (Severe+)**.
+## 🌟 The Problem
+Every October, Northern India—and particularly the Delhi-NCR belt—enters a state of public health emergency. Agricultural stubble burning across Punjab and Haryana, combined with winter thermal inversion, traps particulate matter close to the ground, pushing the Air Quality Index (AQI) well past **450 (Severe+)**.
 
 Existing tools are **passive dashboards**—they tell citizens the air is hazardous, but offer no actionable intervention.
 
 **VayuDrishti (वायुदृष्टि)** transforms air monitoring from passive despair into **active, life-saving intervention**:
+
 1. **NASA FIRMS Stubble Fire Intelligence**: Satellite thermal anomaly detection predicting downwind plume arrival into Delhi-NCR 12-24 hours ahead.
 2. **"Swachh Marg" (SafeRoute AI)**: The world's first lowest-toxic-inhalation route engine for school buses, pedestrians, and delivery riders—**slashing inhaled PM2.5 by 43.7%** compared to standard GPS.
 3. **Automated 06:00 AM School GRAP Automation**: Evaluates dawn thermal inversion traps and broadcasts emergency protocol directives to school principals and parents via **Amazon SNS**.
@@ -53,11 +53,11 @@ Existing tools are **passive dashboards**—they tell citizens the air is hazard
 
 ## 🚀 Quickstart (Zero-Cost Local Mode)
 
-VayuDrishti is designed for 100% zero-config execution. It includes a high-fidelity local emulation layer for AWS services, allowing judges and developers to run the entire stack immediately without an AWS account or bill.
+VayuDrishti is designed for 100% zero-config execution. It includes a high-fidelity local emulation layer for AWS services, allowing anyone to run the entire stack immediately without an AWS account or bill.
 
 ### 1. Clone & Install Dependencies
 ```bash
-git clone https://github.com/your-username/vayudrishti.git
+git clone https://github.com/kaushik989/vayudrishti.git
 cd vayudrishti
 npm install
 ```
@@ -81,9 +81,9 @@ npm run build
 
 ---
 
-## ☁️ Deploy to AWS (Ship It Mode)
+## ☁️ Deploy to AWS (Cloud Mode)
 
-VayuDrishti is 100% cloud-ready using **AWS SAM** (`aws-sam/template.yaml`):
+VayuDrishti is cloud-ready using **AWS SAM** (`aws-sam/template.yaml`):
 
 ```bash
 cd aws-sam
@@ -91,7 +91,7 @@ sam build
 sam deploy --guided
 ```
 
-### Or Run Offline with LocalStack (Build It Mode):
+### Or Run Offline with LocalStack:
 ```bash
 cd aws-sam
 docker-compose -f docker-compose.localstack.yml up -d
@@ -123,18 +123,20 @@ vayudrishti/
 │   ├── template.yaml              # Complete AWS SAM Infrastructure as Code
 │   └── docker-compose.localstack.yml # LocalStack configuration
 ├── docs/
-│   ├── PITCH_SCRIPT.md            # Word-for-word 3-minute video pitch script
-│   └── AWS_BUILDER_BLOG.md        # Ready-to-publish AWS Builder Center blog post
+│   ├── PITCH_SCRIPT.md            # 3-Minute Video Pitch Script
+│   └── AWS_BUILDER_BLOG.md        # Technical architecture blog writeup
 └── package.json
 ```
 
 ---
 
-## 🏆 Hackathon Deliverables
+## 🏆 Project Origin & Hackathon Context
 
-- **3-Minute Video Pitch Script**: See [`docs/PITCH_SCRIPT.md`](docs/PITCH_SCRIPT.md) for the exact script mapped to the judging rubrics.
-- **AWS Builder Center Blog Post**: See [`docs/AWS_BUILDER_BLOG.md`](docs/AWS_BUILDER_BLOG.md) ready to submit for the AirPods 5 contest.
-- **AWS Infrastructure Template**: See [`aws-sam/template.yaml`](aws-sam/template.yaml).
+Built for the **Bharat Builds Tour: Environmental Hacks** organized by **WeMakeDevs & AWS** (Track: Air).
+
+- **Technical Architecture Writeup**: [`docs/AWS_BUILDER_BLOG.md`](docs/AWS_BUILDER_BLOG.md)
+- **Demo Walkthrough Script**: [`docs/PITCH_SCRIPT.md`](docs/PITCH_SCRIPT.md)
+- **Infrastructure Code**: [`aws-sam/template.yaml`](aws-sam/template.yaml)
 
 ---
 
