@@ -3,6 +3,8 @@
 **Built for the [WeMakeDevs × AWS Bharat Builds Tour: Environmental Hacks](https://www.wemakedevs.org/aws/env)**  
 **Track 01: Air** | **Grand Prize Eligible: ₹2,00,000 Cash + $2,000 AWS Credits + Amazon Fast-Track Interviews**
 
+🌐 **Live Demo Website:** [https://740f15a8b736b9.lhr.life](https://740f15a8b736b9.lhr.life)
+
 [![AWS Bedrock](https://img.shields.io/badge/AWS-Bedrock%20Claude%203.5-FF9900?logo=amazon-aws)](https://aws.amazon.com/bedrock/)
 [![Amazon DynamoDB](https://img.shields.io/badge/Amazon-DynamoDB-4053D6?logo=amazon-dynamodb)](https://aws.amazon.com/dynamodb/)
 [![Amazon SNS](https://img.shields.io/badge/Amazon-SNS-FF4F8B?logo=amazon-aws)](https://aws.amazon.com/sns/)
