@@ -8,7 +8,7 @@
 [![Amazon SNS](https://img.shields.io/badge/Amazon-SNS-FF4F8B?logo=amazon-aws)](https://aws.amazon.com/sns/)
 [![AWS SAM](https://img.shields.io/badge/AWS-SAM%20IaC-232F3E?logo=amazon-aws)](https://aws.amazon.com/serverless/sam/)
 
-🌐 **Live Demo Website:** [https://kaushik989.github.io/VayuDrishti/](https://redesigned-space-train-5gxx9xwrjg6w374p5-5173.app.github.dev/) 
+🌐 **Live Demo Website:** [view my project](https://redesigned-space-train-5gxx9xwrjg6w374p5-5173.app.github.dev/) 
 
 ---
 
